@@ -21,7 +21,7 @@ app.UseHttpsRedirection();
 
 app.MapGet("/", () =>
 {
-    return Results.Json(new { email = "amure387@gmail.com", current_datetime = DateTime.Now.ToString("o"), github_url = "https://github.com/Khun111/HNG0" });
+    return Results.Json(new { email = "amure387@gmail.com", current_datetime = DateTime.Now.ToString("yyyy-MM-ddTHH:mmZ"), github_url = "https://github.com/Khun111/HNG0" });
     // var forecast =  Enumerable.Range(1, 5).Select(index =>
     //     new WeatherForecast
     //     (
