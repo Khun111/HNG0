@@ -17,12 +17,8 @@ app.UseHttpsRedirection();
 
 app.MapGet("/", () =>
 {
-    return Results.Json(new { email = "amure387@gmail.com", current_datetime = DateTime.Now.ToString("yyyy-MM-ddTHH:mmZ"), github_url = "https://github.com/Khun111/HNG0" });
+    return Results.Json(new { email = "amure387@gmail.com", current_datetime = DateTime.UtcNow.ToString("O"), github_url = "https://github.com/Khun111/HNG0" });
 })
 .WithName("Home");
 
 app.Run();
-
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
