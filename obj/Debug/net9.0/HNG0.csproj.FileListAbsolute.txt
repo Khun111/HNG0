@@ -32,3 +32,6 @@ c:\Users\USER\Desktop\C# Fiddle\HNG0\obj\Debug\net9.0\HNG0.pdb
 C:\Users\USER\Desktop\C# Fiddle\HNG0\obj\Debug\net9.0\HNG0.genruntimeconfig.cache
 C:\Users\USER\Desktop\C# Fiddle\HNG0\obj\Debug\net9.0\ref\HNG0.dll
 c:\Users\USER\Desktop\C# Fiddle\HNG0\obj\Debug\net9.0\HNG0.sourcelink.json
+c:\Users\USER\Desktop\C# Fiddle\HNG0\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\USER\Desktop\C# Fiddle\HNG0\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\USER\Desktop\C# Fiddle\HNG0\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
