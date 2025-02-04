@@ -8,7 +8,7 @@ namespace Controllers
     public class BasicController : ControllerBase
     {
         [HttpGet]
-        public IActionResult Get([FromQuery] string number)
+        public IActionResult GetNumberFacts([FromQuery] string number)
         {
             // Initialize HttpClient
             HttpClient client = new HttpClient();
